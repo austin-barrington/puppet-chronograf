@@ -1,12 +1,12 @@
 {
   "name": "puppet-chronograf",
-  "version": "1.4.0",
+  "version": "0.0.1",
   "author": "Austin Barrington",
   "summary": "Configuration and management of InfluxData's Chronograf metrics monitoring",
   "license": "GPL-3.0",
-  "source": "https://github.com/austin-barrington/puppet-telegraf",
-  "project_page": "https://github.com/austin-barrington/puppet-telegraf",
-  "issues_url": "https://github.com/austin-barrington/puppet-telegraf/issues",
+  "source": "https://github.com/austin-barrington/puppet-chronograf",
+  "project_page": "https://github.com/austin-barrington/puppet-chronograf",
+  "issues_url": "https://github.com/austin-barrington/puppet-chronograf/issues",
   "tags": ["Chronograf","influxdb","influxdata"],
   "operatingsystem_support": [
     {
