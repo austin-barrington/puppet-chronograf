@@ -2,4 +2,4 @@ fixtures:
   forge_modules:
     stdlib: 'puppetlabs/stdlib'
   symlinks:
-    telegraf: "#{source_dir}"
+    chronograf: "#{source_dir}"

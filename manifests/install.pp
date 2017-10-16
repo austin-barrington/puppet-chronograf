@@ -28,7 +28,7 @@ class chronograf::install {
         yumrepo { 'influxdata':
           descr    => 'influxdata',
           enabled  => 1,
-          baseurl  => "https://repos.influxdata.com/rhel/${::operatingsystemmajrelease}/${::architecture}/${::telegraf::repo_type}",
+          baseurl  => "https://repos.influxdata.com/rhel/${::operatingsystemmajrelease}/${::architecture}/${::chronograf::repo_type}",
           gpgkey   => 'https://repos.influxdata.com/influxdb.key',
           gpgcheck => true,
         }

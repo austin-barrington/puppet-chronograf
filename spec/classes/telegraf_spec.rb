@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'telegraf' do
+describe 'chronograf' do
   context 'Supported operating systems' do
     ['RedHat', ].each do |osfamily|
       [6,7].each do |releasenum|

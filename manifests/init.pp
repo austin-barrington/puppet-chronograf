@@ -14,43 +14,6 @@
 # [*hostname*]
 #   String. Override default hostname used to identify this agent.
 #
-# [*interval*]
-#   String. Default data collection interval for all inputs.
-#
-# [*round_interval*]
-#   Boolean. Rounds collection interval to 'interval'
-#
-# [*metric_buffer_limit*]
-#   Integer. Cache metric_buffer_limit metrics for each output, and flush this
-#   buffer on a successful write.
-#
-# [*flush_buffer_when_full*]
-#   Boolean. Flush buffer whenever full, regardless of flush_interval
-#
-# [*collection_jitter*]
-#   String.  Sleep for a random time within jitter before collecting.
-#
-# [*flush_interval*]
-#   String. Default flushing interval for all outputs.
-#
-# [*flush_jitter*]
-#   String.  Jitter the flush interval by an amount.
-#
-# [*debug*]
-#   Boolean. Run chronograf in debug mode.
-#
-# [*quiet*]
-#   Boolean.  Run chronograf in quiet mode.
-#
-# [*outputs*]
-#   Hash. Specify output plugins and their options.
-#
-# [*inputs*]
-#   Hash.  Specify input plugins and their options.
-#
-# [*global_tags*]
-#   Hash.  Global tags as a key-value pair.
-#
 # [*manage_service*]
 #   Boolean.  Whether to manage the chronograf service or not.
 #
